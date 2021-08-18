@@ -15,7 +15,7 @@ Automated Labeling Based on Similarity to a Validated CXR AI Model Using a Quant
 - You have to set up gpus
 
 ```
-$ python ./autolabeling.py --cuda=<comma-separated gpu-ids> 
+$ python ./autolabeling.py --cuda=<comma-separated gpu-ids>
 ```
 
 ## Demo (w/ Docker)
@@ -35,7 +35,7 @@ You have to follow up the below instruction to make docker image
 
 ```sh
 # Dowload autolabeling zip file
-$ wget -O autolabeling.zip https://www.dropbox.com/s/ccdza41unv4jgss/autolabeling.zip?dl=0
+$ wget -O autolabeling.zip https://www.dropbox.com/s/0iur74nd987qube/autolabeling.zip?dl=0
 # unzip the zip file
 $ unzip autolabeling.zip
 
@@ -66,7 +66,7 @@ $ sudo nvidia-docker run --gpus all -v $OUTPUT_DIR:/home/docker/autolabeling --s
 Now, you are ready to enjoy our Auto-labeling Method on CXRs in a conda environment of the container!
 
 ```sh
-$ python autolabeling.py --cuda=<comma-separated gpu-ids> 
+$ python autolabeling.py --cuda=<comma-separated gpu-ids>
 ```
 
 **[Output]**
@@ -78,7 +78,7 @@ columns ={
          '{class}_ps'  : patch similarity,
          '{class}_cf'  : confidence,
          '{class}_pSim': probability of similarity (key metric for auto-labeling method),
-         '{class}_agt' : auto-labeling results using the optimal pSim thresholds 
+         '{class}_agt' : auto-labeling results using the optimal pSim thresholds
          }
 ```
 
