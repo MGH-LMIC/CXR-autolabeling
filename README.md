@@ -40,7 +40,7 @@ $ wget -O autolabeling.zip https://www.dropbox.com/s/0iur74nd987qube/autolabelin
 $ unzip autolabeling.zip
 
 # Dowload data zip file
-$ wget -O data.zip https://www.dropbox.com/s/rggqu9ekic27vwq/data.zip?dl=0
+# request to authors to get a permission
 # unzip the zip file
 $ unzip data.zip
 
