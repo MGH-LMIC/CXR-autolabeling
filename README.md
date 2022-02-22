@@ -8,7 +8,6 @@ Automated Labeling Based on Similarity to a Validated CXR AI Model Using a Quant
 - PyTorch 1.2.0+
 - Python Packages: ./environment.yml
 
-
 ## Test
 
 - You can use 'autolabeling.py' to test our auto-labeling method to 490 external public datasets (CheXpert[1], MIMIC[2], and NIH[3])
@@ -17,7 +16,6 @@ Automated Labeling Based on Similarity to a Validated CXR AI Model Using a Quant
 ```
 $ python ./autolabeling.py --cuda=<comma-separated gpu-ids>
 ```
-
 
 ## Data & Result sharing
 - We share the data and results of the autolabeling method to https://github.com/MGH-LMIC/AutoLabels-PublicData-CXR-PA.git:
