@@ -18,6 +18,13 @@ Automated Labeling Based on Similarity to a Validated CXR AI Model Using a Quant
 $ python ./autolabeling.py --cuda=<comma-separated gpu-ids>
 ```
 
+
+## Data & Result sharing
+- You can access the data and results from https://github.com/MGH-LMIC/AutoLabels-PublicData-CXR-PA.git
+         * Platinum labels for 490 external public datasets (platinum_label_<abnormal feature>.csv)
+         * Automatic labels applied to posteroanterior (PA) images in CheXpert (n=224,316), MIMIC (n=377,110), and NIH (n=108,948)
+
+
 ## Demo (w/ Docker)
 
 ### 1. Docker and Nvidia-docker installation
@@ -81,6 +88,7 @@ columns ={
          '{class}_agt' : auto-labeling results using the optimal pSim thresholds
          }
 ```
+
 
 ## Reference
 [1] Irvin, J., Rajpurkar, P., Ko, M., Yu, Y., Ciurea-Ilcus, S., Chute, C., Marklund, H., Haghgoo, B., Ball, R., Shpanskaya, K. and Seekins, J. Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison. In Proceedings of the AAAI Conference on Artificial Intelligence 33, 590-597 (2019). Available at: https://stanfordmlgroup.github.io/competitions/chexpert/
