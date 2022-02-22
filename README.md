@@ -20,8 +20,10 @@ $ python ./autolabeling.py --cuda=<comma-separated gpu-ids>
 
 
 ## Data & Result sharing
-- You can access the data and results from https://github.com/MGH-LMIC/AutoLabels-PublicData-CXR-PA.git
+- We share the data and results of the autolabeling method to https://github.com/MGH-LMIC/AutoLabels-PublicData-CXR-PA.git:
+
          * Platinum labels for 490 external public datasets (platinum_label_<abnormal feature>.csv)
+        
          * Automatic labels applied to posteroanterior (PA) images in CheXpert (n=224,316), MIMIC (n=377,110), and NIH (n=108,948)
 
 
